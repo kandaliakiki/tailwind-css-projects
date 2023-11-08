@@ -12,6 +12,12 @@
   scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 855px) {
+  .center-signup {
+    text-align: center;
+  }
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
